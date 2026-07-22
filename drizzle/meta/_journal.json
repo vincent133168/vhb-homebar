@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1784596947468,
+      "tag": "0000_spooky_thunderbolt",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784601805374,
+      "tag": "0001_modern_mimic",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1784606000450,
+      "tag": "0002_careful_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1784689488765,
+      "tag": "0003_common_sunfire",
+      "breakpoints": true
+    }
+  ]
+}

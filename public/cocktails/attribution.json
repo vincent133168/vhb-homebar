@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "classic-americano",
+    "cocktail": "Americano",
+    "matchedImage": "Americano",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/15941-Americano",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-angel-face",
+    "cocktail": "Angel Face",
+    "matchedImage": "Angel Face",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/vaukir1606772580.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11034-Angel-Face",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-aviation",
+    "cocktail": "Aviation",
+    "matchedImage": "Aviation",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17180-Aviation",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-between-sheets",
+    "cocktail": "Between the Sheets",
+    "matchedImage": "Between The Sheets",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/of1rj41504348346.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17184-Between-The-Sheets",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-boulevardier",
+    "cocktail": "Boulevardier",
+    "matchedImage": "Boulevardier",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17251-Boulevardier",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-brandy-crusta",
+    "cocktail": "Brandy Crusta",
+    "matchedImage": "Sidecar",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12196-Sidecar",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-casino",
+    "cocktail": "Casino",
+    "matchedImage": "Casino",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17185-Casino",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-clover-club",
+    "cocktail": "Clover Club",
+    "matchedImage": "Clover Club",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17186-Clover-Club",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-daiquiri",
+    "cocktail": "Daiquiri",
+    "matchedImage": "Daiquiri",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11006-Daiquiri",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-dry-martini",
+    "cocktail": "Dry Martini",
+    "matchedImage": "Dry Martini",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11005-Dry-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-gin-fizz",
+    "cocktail": "Gin Fizz",
+    "matchedImage": "Gin Fizz",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11410-Gin-Fizz",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-hanky-panky",
+    "cocktail": "Hanky Panky",
+    "matchedImage": "Negroni",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11003-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-john-collins",
+    "cocktail": "John Collins",
+    "matchedImage": "John Collins",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/0t4bv71606854479.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11580-John-Collins",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-last-word",
+    "cocktail": "Last Word",
+    "matchedImage": "Aviation",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17180-Aviation",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-manhattan",
+    "cocktail": "Manhattan",
+    "matchedImage": "Manhattan",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11008-Manhattan",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-martinez",
+    "cocktail": "Martinez",
+    "matchedImage": "Martinez Cocktail",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/wwxwvr1439906452.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11720-Martinez-Cocktail",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-mary-pickford",
+    "cocktail": "Mary Pickford",
+    "matchedImage": "Mary Pickford",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17188-Mary-Pickford",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-monkey-gland",
+    "cocktail": "Monkey Gland",
+    "matchedImage": "Monkey Gland",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17189-Monkey-Gland",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-negroni",
+    "cocktail": "Negroni",
+    "matchedImage": "Negroni",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11003-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-old-fashioned",
+    "cocktail": "Old Fashioned",
+    "matchedImage": "Old Fashioned",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11001-Old-Fashioned",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-paradise",
+    "cocktail": "Paradise",
+    "matchedImage": "Paradise",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17190-Paradise",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-planters-punch",
+    "cocktail": "Planter’s Punch",
+    "matchedImage": "Planter’s Punch",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/jn6o251643844541.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178368-Planter’s-Punch",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-porto-flip",
+    "cocktail": "Porto Flip",
+    "matchedImage": "Porto flip",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/64x5j41504351518.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17192-Porto-flip",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-ramos-fizz",
+    "cocktail": "Ramos Fizz",
+    "matchedImage": "Ramos Gin Fizz",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/967t911643844053.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178367-Ramos-Gin-Fizz",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-rusty-nail",
+    "cocktail": "Rusty Nail",
+    "matchedImage": "Rusty Nail",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12101-Rusty-Nail",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-sazerac",
+    "cocktail": "Sazerac",
+    "matchedImage": "Sazerac",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12127-Sazerac",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-sidecar",
+    "cocktail": "Sidecar",
+    "matchedImage": "Sidecar",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12196-Sidecar",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-stinger",
+    "cocktail": "Stinger",
+    "matchedImage": "Stinger",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17193-Stinger",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-tuxedo",
+    "cocktail": "Tuxedo",
+    "matchedImage": "Tuxedo Cocktail",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12420-Tuxedo-Cocktail",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-whiskey-sour",
+    "cocktail": "Whiskey Sour",
+    "matchedImage": "Whiskey Sour",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11004-Whiskey-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-alexander",
+    "cocktail": "Alexander",
+    "matchedImage": "Alexander",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11014-Alexander",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-bellini",
+    "cocktail": "Bellini",
+    "matchedImage": "Bellini",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17195-Bellini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-black-russian",
+    "cocktail": "Black Russian",
+    "matchedImage": "Black Russian",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/8oxlqf1606772765.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11102-Black-Russian",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-bloody-mary",
+    "cocktail": "Bloody Mary",
+    "matchedImage": "Bloody Mary",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/t6caa21582485702.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11113-Bloody-Mary",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-caipirinha",
+    "cocktail": "Caipirinha",
+    "matchedImage": "Caipirinha",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11202-Caipirinha",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-cardinale",
+    "cocktail": "Cardinale",
+    "matchedImage": "Negroni",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11003-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-champagne-cocktail",
+    "cocktail": "Champagne Cocktail",
+    "matchedImage": "Champagne Cocktail",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/t5pv461606773026.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11227-Champagne-Cocktail",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-corpse-reviver-2",
+    "cocktail": "Corpse Reviver No.2",
+    "matchedImage": "Corpse Reviver",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17250-Corpse-Reviver",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-cosmopolitan",
+    "cocktail": "Cosmopolitan",
+    "matchedImage": "Cosmopolitan",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17196-Cosmopolitan",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-cuba-libre",
+    "cocktail": "Cuba Libre",
+    "matchedImage": "Cuba Libre",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/wmkbfj1606853905.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11288-Cuba-Libre",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-french-75",
+    "cocktail": "French 75",
+    "matchedImage": "French 75",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hrxfbl1606773109.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17197-French-75",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-french-connection",
+    "cocktail": "French Connection",
+    "matchedImage": "French Connection",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17198-French-Connection",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-garibaldi",
+    "cocktail": "Garibaldi",
+    "matchedImage": "Garibaldi Negroni",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/kb4bjg1604179771.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178340-Garibaldi-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-grasshopper",
+    "cocktail": "Grasshopper",
+    "matchedImage": "Grasshopper",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17200-Grasshopper",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-hemingway-special",
+    "cocktail": "Hemingway Special",
+    "matchedImage": "Hemingway Special",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17201-Hemingway-Special",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-horses-neck",
+    "cocktail": "Horse’s Neck",
+    "matchedImage": "Horse's Neck",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17202-Horses-Neck",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-irish-coffee",
+    "cocktail": "Irish Coffee",
+    "matchedImage": "Irish Coffee",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/13971-Irish-Coffee",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-kir",
+    "cocktail": "Kir",
+    "matchedImage": "Kir",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17203-Kir",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-long-island",
+    "cocktail": "Long Island Iced Tea",
+    "matchedImage": "Long Island Iced Tea",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/wx7hsg1504370510.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17204-Long-Island-Iced-Tea",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-mai-tai",
+    "cocktail": "Mai Tai",
+    "matchedImage": "Mai Tai",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11690-Mai-Tai",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-margarita",
+    "cocktail": "Margarita",
+    "matchedImage": "Margarita",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11007-Margarita",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-mimosa",
+    "cocktail": "Mimosa",
+    "matchedImage": "Mimosa",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17205-Mimosa",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-mint-julep",
+    "cocktail": "Mint Julep",
+    "matchedImage": "Mint Julep",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17206-Mint-Julep",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-mojito",
+    "cocktail": "Mojito",
+    "matchedImage": "Mojito",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11000-Mojito",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-moscow-mule",
+    "cocktail": "Moscow Mule",
+    "matchedImage": "Moscow Mule",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11009-Moscow-Mule",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-pina-colada",
+    "cocktail": "Piña Colada",
+    "matchedImage": "Pina Colada",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17207-Pina-Colada",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-pisco-sour",
+    "cocktail": "Pisco Sour",
+    "matchedImage": "Pisco Sour",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/13214-Pisco-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-sea-breeze",
+    "cocktail": "Sea Breeze",
+    "matchedImage": "Sea breeze",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/13377-Sea-breeze",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-sex-on-beach",
+    "cocktail": "Sex on the Beach",
+    "matchedImage": "Sex on the Beach",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/fi67641668420787.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12754-Sex-on-the-Beach",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-singapore-sling",
+    "cocktail": "Singapore Sling",
+    "matchedImage": "Singapore Sling",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/7dozeg1582578095.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12214-Singapore-Sling",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-tequila-sunrise",
+    "cocktail": "Tequila Sunrise",
+    "matchedImage": "Tequila Sunrise",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/13621-Tequila-Sunrise",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-vesper",
+    "cocktail": "Vesper",
+    "matchedImage": "Vesper",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17218-Vesper",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-zombie",
+    "cocktail": "Zombie",
+    "matchedImage": "Zombie",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17241-Zombie",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-barracuda",
+    "cocktail": "Barracuda",
+    "matchedImage": "Barracuda",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/jwmr1x1504372337.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17209-Barracuda",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-bees-knees",
+    "cocktail": "Bee’s Knees",
+    "matchedImage": "Bee's Knees",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/tx8ne41582475326.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178317-Bees-Knees",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-bramble",
+    "cocktail": "Bramble",
+    "matchedImage": "Bramble",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17210-Bramble",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-canchanchara",
+    "cocktail": "Canchanchara",
+    "matchedImage": "Daiquiri",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11006-Daiquiri",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-dark-stormy",
+    "cocktail": "Dark ’N’ Stormy",
+    "matchedImage": "Cuba Libre",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/wmkbfj1606853905.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11288-Cuba-Libre",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-espresso-martini",
+    "cocktail": "Espresso Martini",
+    "matchedImage": "Espresso Martini",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17212-Espresso-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-french-martini",
+    "cocktail": "French Martini",
+    "matchedImage": "French Martini",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17213-French-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-gin-basil-smash",
+    "cocktail": "Gin Basil Smash",
+    "matchedImage": "Gin Basil Smash",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/jqh2141572807327.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178314-Gin-Basil-Smash",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-illegal",
+    "cocktail": "Illegal",
+    "matchedImage": "Margarita",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11007-Margarita",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-lemon-drop",
+    "cocktail": "Lemon Drop Martini",
+    "matchedImage": "Lemon Drop",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/14366-Lemon-Drop",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-new-york-sour",
+    "cocktail": "New York Sour",
+    "matchedImage": "New York Sour",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11844-New-York-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-old-cuban",
+    "cocktail": "Old Cuban",
+    "matchedImage": "Old Cuban",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/eo8gfx1699022995.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178371-Old-Cuban",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-paloma",
+    "cocktail": "Paloma",
+    "matchedImage": "Paloma",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17253-Paloma",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-paper-plane",
+    "cocktail": "Paper Plane",
+    "matchedImage": "Whiskey Sour",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11004-Whiskey-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-penicillin",
+    "cocktail": "Penicillin",
+    "matchedImage": "Penicillin",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17829-Penicillin",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-pornstar-martini",
+    "cocktail": "Porn Star Martini",
+    "matchedImage": "Pornstar Martini",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/xjhjdf1630406071.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178357-Pornstar-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-russian-spring",
+    "cocktail": "Russian Spring Punch",
+    "matchedImage": "Russian Spring Punch",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17214-Russian-Spring-Punch",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-tommys-margarita",
+    "cocktail": "Tommy’s Margarita",
+    "matchedImage": "Tommy's Margarita",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17216-Tommys-Margarita",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-trinidad-sour",
+    "cocktail": "Trinidad Sour",
+    "matchedImage": "Whiskey Sour",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11004-Whiskey-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-southside",
+    "cocktail": "Southside",
+    "matchedImage": "Mojito",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11000-Mojito",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-jungle-bird",
+    "cocktail": "Jungle Bird",
+    "matchedImage": "Mai Tai",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11690-Mai-Tai",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-naked-famous",
+    "cocktail": "Naked and Famous",
+    "matchedImage": "Margarita",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11007-Margarita",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-aperol-spritz",
+    "cocktail": "Aperol Spritz",
+    "matchedImage": "Aperol Spritz",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/iloasq1587661955.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/178325-Aperol-Spritz",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-white-lady",
+    "cocktail": "White Lady",
+    "matchedImage": "White Lady",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17194-White-Lady",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-blood-sand",
+    "cocktail": "Blood and Sand",
+    "matchedImage": "Manhattan",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11008-Manhattan",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-bobby-burns",
+    "cocktail": "Bobby Burns",
+    "matchedImage": "Bobby Burns Cocktail",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/km6se51484411608.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11121-Bobby-Burns-Cocktail",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-rob-roy",
+    "cocktail": "Rob Roy",
+    "matchedImage": "Manhattan",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11008-Manhattan",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-el-presidente",
+    "cocktail": "El Presidente",
+    "matchedImage": "Daiquiri",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11006-Daiquiri",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-painkiller",
+    "cocktail": "Painkiller",
+    "matchedImage": "Pina Colada",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17207-Pina-Colada",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-corpse-reviver-1",
+    "cocktail": "Corpse Reviver No.1",
+    "matchedImage": "Corpse Reviver",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17250-Corpse-Reviver",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-ve-n-to",
+    "cocktail": "Ve.N.To",
+    "matchedImage": "Pisco Sour",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/13214-Pisco-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-tipperary",
+    "cocktail": "Tipperary",
+    "matchedImage": "Tipperary",
+    "exactNameMatch": true,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17828-Tipperary",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-remember-maine",
+    "cocktail": "Remember the Maine",
+    "matchedImage": "Manhattan",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11008-Manhattan",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-three-dots-dash",
+    "cocktail": "Three Dots and a Dash",
+    "matchedImage": "Mai Tai",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11690-Mai-Tai",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-sherry-cobbler",
+    "cocktail": "Sherry Cobbler",
+    "matchedImage": "Sherry Flip",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/12190-Sherry-Flip",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-suffering-bastard",
+    "cocktail": "Suffering Bastard",
+    "matchedImage": "Horse's Neck",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17202-Horses-Neck",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-rabo-de-galo",
+    "cocktail": "Rabo de Galo",
+    "matchedImage": "Negroni",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11003-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "classic-grand-margarita",
+    "cocktail": "Grand Margarita",
+    "matchedImage": "Margarita",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11007-Margarita",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-leone-roma",
+    "cocktail": "Roma Corner",
+    "matchedImage": "Negroni",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11003-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-leone-limonata",
+    "cocktail": "Trastevere Limonata",
+    "matchedImage": "Gin Fizz",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11410-Gin-Fizz",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-handshake-peanut",
+    "cocktail": "Clear Peanut Sour",
+    "matchedImage": "Whiskey Sour",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11004-Whiskey-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-handshake-pina",
+    "cocktail": "Silk Colada",
+    "matchedImage": "Pina Colada",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17207-Pina-Colada",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-sips-citrus",
+    "cocktail": "Mediterranean Fizz",
+    "matchedImage": "Gin Fizz",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11410-Gin-Fizz",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-sips-corn",
+    "cocktail": "Corn & Miso",
+    "matchedImage": "Old Fashioned",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11001-Old-Fashioned",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-paradiso-cosmic",
+    "cocktail": "Cosmic Orchard",
+    "matchedImage": "Clover Club",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17186-Clover-Club",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-paradiso-volcano",
+    "cocktail": "Cacao Volcano",
+    "matchedImage": "Pina Colada",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17207-Pina-Colada",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-tayer-coldbrew",
+    "cocktail": "Midnight Cold Brew",
+    "matchedImage": "Espresso Martini",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17212-Espresso-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-tayer-rhubarb",
+    "cocktail": "Rhubarb Highball",
+    "matchedImage": "Gin Fizz",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11410-Gin-Fizz",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-connaught-martini",
+    "cocktail": "Mayfair Martini",
+    "matchedImage": "Dry Martini",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11005-Dry-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-connaught-bergamot",
+    "cocktail": "Bergamot Champagne",
+    "matchedImage": "French 75",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hrxfbl1606773109.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17197-French-75",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-moebius-tomato",
+    "cocktail": "Tomato White Negroni",
+    "matchedImage": "Negroni",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11003-Negroni",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-moebius-fig",
+    "cocktail": "Fig Sour",
+    "matchedImage": "Whiskey Sour",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11004-Whiskey-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-line-bread",
+    "cocktail": "Sourdough Highball",
+    "matchedImage": "Old Fashioned",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11001-Old-Fashioned",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-line-ferment",
+    "cocktail": "Fermented Pear Sour",
+    "matchedImage": "Cosmopolitan",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17196-Cosmopolitan",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-jigger-pony",
+    "cocktail": "Yuzu Martini",
+    "matchedImage": "Dry Martini",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11005-Dry-Martini",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-jigger-tea",
+    "cocktail": "Nanyang Tea Punch",
+    "matchedImage": "Mai Tai",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11690-Mai-Tai",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-tres-monos-mate",
+    "cocktail": "Mate Highball",
+    "matchedImage": "Horse's Neck",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/17202-Horses-Neck",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  },
+  {
+    "id": "topbar-tres-monos-plum",
+    "cocktail": "Smoked Plum Sour",
+    "matchedImage": "Whiskey Sour",
+    "exactNameMatch": false,
+    "imageUrl": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "sourcePage": "https://www.thecocktaildb.com/drink/11004-Whiskey-Sour",
+    "dataset": "https://www.kaggle.com/datasets/pxxthik/the-cocktail-db-recipe-collection",
+    "datasetLicense": "CC0: Public Domain (as listed by the dataset publisher)"
+  }
+]
