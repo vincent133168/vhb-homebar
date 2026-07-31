@@ -31,6 +31,7 @@ export async function ensureTables() {
       story TEXT NOT NULL DEFAULT '由深夜客厅的朋友上传。',
       ingredients TEXT NOT NULL,
       recipe TEXT NOT NULL,
+      measure_count INTEGER,
       taste TEXT NOT NULL DEFAULT '待探索',
       strength TEXT NOT NULL DEFAULT '中等',
       minutes INTEGER NOT NULL DEFAULT 4,
@@ -70,6 +71,7 @@ export async function ensureTables() {
   if (!columns.has("category")) await DB.prepare("ALTER TABLE cocktails ADD COLUMN category TEXT NOT NULL DEFAULT 'homebar'").run();
   if (!columns.has("rank")) await DB.prepare("ALTER TABLE cocktails ADD COLUMN rank INTEGER").run();
   if (!columns.has("source_url")) await DB.prepare("ALTER TABLE cocktails ADD COLUMN source_url TEXT").run();
+  if (!columns.has("measure_count")) await DB.prepare("ALTER TABLE cocktails ADD COLUMN measure_count INTEGER").run();
   const orderInfo = await DB.prepare("PRAGMA table_info(orders)").all<{ name: string }>();
   if (!orderInfo.results.some((column) => column.name === "customer_id")) await DB.prepare("ALTER TABLE orders ADD COLUMN customer_id TEXT").run();
   await DB.prepare("CREATE INDEX IF NOT EXISTS orders_customer_id_idx ON orders (customer_id, created_at DESC)").run();
@@ -120,5 +122,13 @@ export async function ensureCatalog() {
       DB.prepare("UPDATE cocktails SET price = 0"),
       DB.prepare("INSERT INTO settings (key,value,updated_at) VALUES ('all_prices_zero_v1','done',?)").bind(now),
     ]);
+  }
+
+  const detailedRecipeMigration = await DB.prepare("SELECT value FROM settings WHERE key = 'detailed_recipes_v1'").first<{ value: string }>();
+  if (!detailedRecipeMigration) {
+    const recipeUpdates = activeCatalogSeeds.map((item) => DB.prepare("UPDATE cocktails SET recipe = ?, minutes = ? WHERE id = ?")
+      .bind(JSON.stringify(item.recipe), item.minutes, item.id));
+    for (let index = 0; index < recipeUpdates.length; index += 50) await DB.batch(recipeUpdates.slice(index, index + 50));
+    await DB.prepare("INSERT INTO settings (key,value,updated_at) VALUES ('detailed_recipes_v1','done',?)").bind(now).run();
   }
 }

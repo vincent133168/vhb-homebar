@@ -12,6 +12,7 @@ export const cocktails = sqliteTable("cocktails", {
   story: text("story").notNull().default("由深夜客厅的朋友上传。"),
   ingredients: text("ingredients").notNull(),
   recipe: text("recipe").notNull(),
+  measureCount: integer("measure_count"),
   taste: text("taste").notNull().default("待探索"),
   strength: text("strength").notNull().default("中等"),
   minutes: integer("minutes").notNull().default(4),

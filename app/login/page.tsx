@@ -9,7 +9,6 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
   const returnTo = safeReturnTo(typeof params.returnTo === "string" ? params.returnTo : "/admin", "/admin");
   const adminMode = params.mode === "admin";
   const invalid = params.error === "invalid";
-  const adminUnconfigured = params.error === "unconfigured";
   const wechat = typeof params.wechat === "string" ? params.wechat : "";
 
   return <main className="login-page">
@@ -28,7 +27,6 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
           <label>管理员账号<input name="username" autoComplete="username" placeholder="请输入管理员账号" required/></label>
           <label>管理员密码<input name="password" type="password" autoComplete="current-password" placeholder="请输入管理员密码" required/></label>
           {invalid && <p className="login-error">账号或密码不正确，请重新输入。</p>}
-          {adminUnconfigured && <p className="login-error">请先配置管理员账号、密码和登录密钥。</p>}
           <button type="submit">进入后台 <span>→</span></button>
           <a className="switch-login" href="/login">返回顾客登录</a>
         </form> : <>

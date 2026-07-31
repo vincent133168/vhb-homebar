@@ -1,0 +1,1 @@
+ALTER TABLE `cocktails` ADD `measure_count` integer;

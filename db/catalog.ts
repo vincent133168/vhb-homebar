@@ -141,19 +141,146 @@ function parseComponents(value: string) {
   return { ingredients: parts.map(([name]) => name), recipe: parts.map(([name, amount]) => `${name} ${amount}`) };
 }
 
+function garnishSuggestion(ingredients: string[]) {
+  if (ingredients.some((item) => item.includes("薄荷"))) return "轻拍薄荷枝释放香气，放在杯口作为装饰；避免把叶片压碎后留在酒液中。";
+  if (ingredients.some((item) => /咖啡|浓缩咖啡/.test(item))) return "擦净杯口，使用 3 颗咖啡豆或一小片柑橘皮完成香气装饰。";
+  if (ingredients.some((item) => /菠萝|椰浆|椰奶/.test(item))) return "使用菠萝叶、脱水菠萝或简洁柑橘皮装饰，保持杯口便于饮用。";
+  if (ingredients.some((item) => /橙|金巴利|阿佩罗/.test(item))) return "在杯面挤压橙皮精油，擦拭杯口后放入或弃置橙皮。";
+  if (ingredients.some((item) => /柠檬|青柠|柚子|西柚/.test(item))) return "在杯面挤压对应柑橘皮精油，检查杯口整洁后完成装饰。";
+  return "检查杯口与酒液状态，使用与主风味一致的简洁装饰，并立即出品。";
+}
+
+const fluteGlassIds = new Set(["bellini","champagne-cocktail","french-75","mimosa","russian-spring","barracuda","connaught-bergamot"]);
+const rocksGlassIds = new Set(["americano","negroni","old-fashioned","rusty-nail","black-russian","french-connection","caipirinha","mint-julep","mai-tai","jungle-bird","painkiller","paper-plane","penicillin","dark-stormy"]);
+const tikiGlassIds = new Set(["planters-punch","pina-colada","zombie","singapore-sling","three-dots-dash"]);
+
+function glasswareFor(id: string, method: string) {
+  if (id === "irish-coffee") return "耐热爱尔兰咖啡杯";
+  if (id === "aperol-spritz") return "大号葡萄酒杯";
+  if (fluteGlassIds.has(id)) return "香槟笛形杯或郁金香杯";
+  if (tikiGlassIds.has(id)) return "高球杯或 Tiki 杯";
+  if (rocksGlassIds.has(id) || method.includes("杯中搅拌") || method.includes("捣压直调")) return "古典杯";
+  if (/气泡|可乐|直调/.test(method)) return "柯林杯或高球杯";
+  return "鸡尾酒杯或 Nick & Nora 杯";
+}
+
+function detailedMethod(id: string, method: string, ingredients: string[]) {
+  const prep = `使用量具按配方备齐全部材料，预冷${glasswareFor(id,method)}，并准备足量、干净且完整的硬冰。`;
+  const garnish = garnishSuggestion(ingredients);
+  const hasEgg = ingredients.some((item) => /蛋清|蛋黄/.test(item));
+  const hasBubbles = ingredients.some((item) => /苏打|香槟|普罗塞克|气泡|可乐|姜汁汽水|西柚苏打/.test(item));
+
+  if (method.includes("奶洗澄清") || method.includes("澄清冷却")) return [
+    prep,
+    "先将酒体、果汁及糖类混合；把酸性混合液缓慢倒入牛奶或椰奶中，使其均匀凝结，不要反向冲入。",
+    "静置约 30 分钟后先粗滤，再用咖啡滤纸慢速过滤；首轮浑浊液回倒重滤，直到酒液清澈。",
+    "澄清液充分冷藏。出品时量取单杯份量，加入冰块搅拌至完全降温，再过滤至预冷杯中。",
+    garnish,
+  ];
+  if (method.includes("长摇后补气泡")) return [
+    prep,
+    "除苏打水外，将全部材料加入雪克壶；先不加冰干摇 20 秒，使蛋白与奶油充分乳化。",
+    "加入硬冰后继续大力摇和 15–20 秒，直到壶壁结霜、泡沫细密稳定。",
+    "双重过滤至预冷高杯，沿杯壁缓慢补入苏打水；必要时用吧匙轻提一次，让泡沫均匀上升。",
+    garnish,
+  ];
+  if (method.includes("搅拌机打匀")) return [
+    prep,
+    "将全部材料加入搅拌机，再加入约一满杯碎冰；先低速启动，再高速搅打 10–15 秒。",
+    "观察质地达到细腻、均匀且可缓慢流动的状态；过稀时补少量碎冰，过稠时补少量果汁。",
+    "倒入冰镇杯中并整理表面，避免大块未打碎的冰粒。",
+    garnish,
+  ];
+  if (method.includes("捣压摇和")) return [
+    prep,
+    "将香草或水果与糖浆放入雪克壶，轻压 3–5 次释放香气；不要过度碾碎产生苦涩。",
+    "加入其余材料和硬冰，大力摇和约 10–12 秒至充分降温。",
+    "双重过滤至预冷杯中；若使用加冰杯，换入新的完整冰块。",
+    garnish,
+  ];
+  if (method.includes("捣压直调")) return [
+    prep,
+    "在出品杯中放入水果、香草和糖类，轻压至糖溶解并释放香气，保留适度完整质感。",
+    "加入基酒和一半碎冰，从杯底向上搅拌 8–10 秒，使风味均匀并完成初步稀释。",
+    "补满新鲜碎冰；如配方含气泡材料，最后沿杯壁加入并轻提一次。",
+    garnish,
+  ];
+  if (method.includes("热调")) return [
+    "预热耐热杯并备齐材料；奶油保持低温，打发至可流动但能浮在液面的状态。",
+    "将糖与热饮基底搅拌至完全溶解，再加入烈酒；整体温度以热而不沸为准，避免酒精香气散失。",
+    "沿吧匙背面缓慢铺上冷奶油，形成清晰分层；出品时不再搅拌。",
+    garnish,
+  ];
+  if (method.includes("搅拌并洗杯")) return [
+    prep,
+    "用苦艾酒充分润洗冰镇杯内壁，旋转覆盖后倒掉多余液体，保留均匀香气薄膜。",
+    "其余材料加入调酒杯并加满硬冰，稳定搅拌 20–25 秒，直到酒体冰冷且稀释适中。",
+    "过滤至处理好的杯中，不带入碎冰；再次确认香气、温度和澄清度。",
+    garnish,
+  ];
+  if (method.includes("杯中搅拌")) return [
+    prep,
+    "将糖、苦精或少量水先在出品杯中完全溶解，再加入基酒。",
+    "加入一块大冰或数块完整硬冰，沿杯壁稳定搅拌 15–20 秒，使酒体充分降温并达到适度稀释。",
+    "整理冰块与液面，确保没有碎冰和糖粒残留。",
+    garnish,
+  ];
+  if (method.includes("搅拌")) return [
+    prep,
+    "将全部非气泡材料加入调酒杯并加满硬冰，吧匙贴杯壁稳定搅拌 20–25 秒。",
+    "试饮或观察温度，确认酒体冰冷、质地顺滑且稀释适中。",
+    "过滤至预冷杯中；需要加冰出品时，使用新的完整冰块，不把调酒杯中的湿冰带入。",
+    garnish,
+  ];
+  if (method.includes("摇和并配气泡酒")) return [
+    prep,
+    "除配饮气泡酒外，将全部材料加入雪克壶并加满硬冰，大力摇和 10–12 秒。",
+    "双重过滤至预冷杯中，检查泡沫、温度和酸甜平衡。",
+    "气泡酒单独使用冰镇小杯出品，不倒入主酒；提醒顾客可交替品饮。",
+    garnish,
+  ];
+  if (method.includes("摇和后漂浮")) return [
+    prep,
+    hasEgg ? "除漂浮材料外先干摇 15–20 秒，再加入硬冰大力摇和 10–12 秒。" : "除漂浮材料外全部加入雪克壶，加满硬冰后大力摇和 10–12 秒。",
+    "过滤至预冷杯或装有新冰的出品杯，液面保持平整。",
+    "将漂浮材料沿吧匙背面缓慢注入，使其停留在酒面并形成清晰层次。",
+    garnish,
+  ];
+  if (method.includes("摇和后补气泡") || method.includes("摇和后补可乐")) return [
+    prep,
+    "除气泡材料外，将其余材料加入雪克壶并加满硬冰，摇和约 8–10 秒完成降温。",
+    "过滤至装有新冰的高杯，避免把碎冰和过度融化的旧冰带入。",
+    "最后沿杯壁缓慢补入气泡材料，用吧匙从杯底轻提 1 次即可，避免过度搅拌导致消泡。",
+    garnish,
+  ];
+  if (method.includes("杯中直调") || method.includes("直调")) return [
+    prep,
+    "将非气泡材料按顺序加入出品杯；加入完整硬冰后沿杯壁搅拌 8–10 秒完成降温。",
+    hasBubbles ? "最后沿杯壁缓慢加入气泡材料，用吧匙从杯底轻提 1 次，使酒液均匀且保留气泡。" : "试饮确认风味均匀、温度合适；需要时补入新的完整冰块并整理液面。",
+    garnish,
+  ];
+  return [
+    prep,
+    hasEgg ? "将全部材料加入雪克壶，先不加冰干摇 15–20 秒，使蛋液充分乳化。" : "将全部材料加入雪克壶，再加入约 2/3 壶硬冰。",
+    hasEgg ? "加入硬冰后继续大力摇和 10–12 秒，直到壶壁结霜且泡沫细密。" : "大力摇和约 10–12 秒，直到壶壁结霜、酒液充分降温。",
+    "双重过滤至预冷杯中；需要加冰出品时，换入新的完整冰块。",
+    garnish,
+  ];
+}
+
 export const catalogSeeds: CatalogSeed[] = [
   ...classicRows.map((row, index) => {
     const [id,name,englishName,components,method,taste,strength,price] = row;
     const parsed = parseComponents(components);
     return { id:`classic-${id}`,name,englishName,bar:"IBA 经典配方",city:"经典酒单",category:"classic" as const,sourceUrl:IBA,
       story:"以国际经典结构为基础整理的 HOME/BAR 标准版，适合在熟悉的味道里找到自己的偏好。",
-      ingredients:parsed.ingredients,recipe:[...parsed.recipe,`${method}，按杯型出品`],taste,strength,minutes:method.includes("搅拌")?4:5,price,createdAt:1700000000000+index };
+      ingredients:parsed.ingredients,recipe:[...parsed.recipe,...detailedMethod(id,method,parsed.ingredients)],taste,strength,minutes:method.includes("搅拌")?4:5,price,createdAt:1700000000000+index };
   }),
   ...topBarRows.map((row, index) => {
     const [id,name,englishName,components,method,taste,strength,price,bar,rank] = row;
     const parsed = parseComponents(components);
     return { id:`topbar-${id}`,name,englishName,bar:`${bar} 灵感`,city:"2025 世界榜单",category:"topbar" as const,rank,sourceUrl:TOP50,
       story:`取材自 ${bar} 的风味方向，由 HOME/BAR 重新演绎；并非原店官方配方。`,
-      ingredients:parsed.ingredients,recipe:[...parsed.recipe,`${method}，按杯型出品`],taste,strength,minutes:5,price,createdAt:1710000000000+index };
+      ingredients:parsed.ingredients,recipe:[...parsed.recipe,...detailedMethod(id,method,parsed.ingredients)],taste,strength,minutes:5,price,createdAt:1710000000000+index };
   }),
 ];
